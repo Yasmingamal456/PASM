@@ -32,8 +32,8 @@ stats=Statistics("enter the path of the multiple sequence alignment file to calc
 Project structure: The program is composed of 3 main classes 
 Global alignment class (calculate the distance matrix)
 2. UPGMA class (construct phylogenetic tree)
-3. Statistics class (calculate all statistics, identify mutation, validate the tree [bootstrap], visualize the tree )
+3. Statistics class (calculate all statistics, identify mutation, visualize the tree 
 
 Output: phylogenetic tree, text file for alignment statistics, text file for the key mutation, FASTA file for the pairwise alignment if needed
 
-Contributors: Rewan Wael, Salma Badr, and Yasmin Gamal
+
