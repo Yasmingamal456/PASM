@@ -1,6 +1,10 @@
 # PASM- phylogenetic analysis-MSA statistics-mutation identification
 
-PASM is a python program that builds a phylogenetic tree, calculates multiple sequence alignment statistics, and identifies key mutations. It performs Needleman–Wunsch global alignment, builds the distance matrix with the kimura-2 [k80] model and constructs the phylogenetic tree using the UPGMA algorithm. The conservation score and the key mutations identified from the multiple sequence alignment file are calculated, and the accuracy of the phylogenetic tree is validated by implementing the bootstrap method. The program is useful for biologists and bioinformaticians in viral evolution studies.
+PASM is a Python-based program that builds phylogenetic trees, computes multiple sequence alignment (MSA) statistics, and identifies key mutations. It performs pairwise global alignment using the Needleman–Wunsch algorithm, constructs a distance matrix based on the Kimura 2-parameter (K80) model, and generates phylogenetic trees using the UPGMA algorithm.
+
+The program also calculates conservation scores and detects key mutations from multiple sequence alignments.
+
+PASM is designed as a pipeline for biologists and bioinformaticians, particularly for applications in  evolution and sequence analysis.
 
 ## Python packages
 ```
