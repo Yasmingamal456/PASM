@@ -9,7 +9,7 @@ numpy
 matplotlib
 
 
-How to run the program:
+# How to run the program:
 Input: The user can input a FASTA file of sequences and use the file_to_folder() function to convert the file to a folder of FASTA files of one sequence or directly use a folder as input. 
 
 In Line 13
@@ -27,11 +27,16 @@ for i in os.listdir("enter the path of the folder that contain the sequences"):
 In line 656:
 stats=Statistics("enter the path of the multiple sequence alignment file to calculate the alignment statistics")
 
-Project structure: The program is composed of 3 main classes 
+# Project structure: 
+The program is composed of 3 main classes 
 Global alignment class (calculate the distance matrix)
 2. UPGMA class (construct phylogenetic tree)
 3. Statistics class (calculate all statistics, identify mutation, visualize the tree 
 
-Output: phylogenetic tree, text file for alignment statistics, text file for the key mutation, FASTA file for the pairwise alignment if needed
+# Output: 
+phylogenetic tree files
+alignment statistics file 
+key mutation file 
+FASTA file for the pairwise alignment 
 
 
